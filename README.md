@@ -1,7 +1,7 @@
 ## Oie! Eu sou a Clarice Almeida, pode me chamar de Clari! 💖
 
 🎈 Atualmente como assistente de TI usando tecnologias de Front-end e Excel <br>
-💫 Estou sempre em busca de me aprofundar no universo do Fron-end, paralelo à isso, no momento estou estudando Excel VBA para agregar no meu atual emprego <br>
+💫 Estou sempre em busca de me aprofundar no universo do Fron-end, paralelo à isso, no momento estou estudando Excel VBA e Ruby para agregar no meu atual emprego <br>
 📩 Adoro receber feedbacks, eles me ajudam muito a evoluir, então sinta-se à vontade em me escrever <br>
 🎪🤸🏽‍♀️ Fato aleatório: O circo é minha paixão, era acrobata aérea há 3 anos e pretendo voltar a praticar logo!<br>
 
