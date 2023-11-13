@@ -4,7 +4,7 @@
 💫 Estou sempre em busca de me aprofundar no universo do Fron-end, no momento estou estudando Ruby e Ruby on Rails <br>
 📩 Adoro receber feedbacks, eles me ajudam muito a evoluir, então sinta-se à vontade em me escrever <br>
 🤯 Comecei a praticar os conhecimentos que estou adquirindo através do Codewars e projetinhos individuais além de cursos online e bootcamps, fique à vontade em me ajudar a praticar <br/>
-🎪🤸🏽‍♀️ Fato aleatório: O circo é minha paixão, era acrobata aérea, precisei dar uma pausa, mas pretendo voltar a praticar logo!<br>
+🎪🤸🏽‍♀️ Fato aleatório: O circo é minha paixão, sou acrobata aérea e atriz!<br>
 
 ##
 
