@@ -1,9 +1,9 @@
 ## Oie! Eu sou a Clarice Almeida, pode me chamar de Clari! 💖
 
 🎈 Atualmente trabalho como assistente de TI usando tecnologias de Front-end e Excel <br>
-💫 Estou sempre em busca de me aprofundar no universo do Fron-end, no momento estou estudando Ruby e Ruby on Rails <br>
+💫 Estou sempre em busca de me aprofundar no universo da programação, no momento estou estudando na PUCPR no curso de ADS <br>
 📩 Adoro receber feedbacks, eles me ajudam muito a evoluir, então sinta-se à vontade em me escrever <br>
-🤯 Comecei a praticar os conhecimentos que estou adquirindo através do Codewars e projetinhos individuais além de cursos online e bootcamps, fique à vontade em me ajudar a praticar <br/>
+🤯 Pratico meus conhecimentos através do Codewars, Beecrowd e projetinhos individuais além de cursos online e bootcamps, fique à vontade em me ajudar a praticar <br/>
 🎪🤸🏽‍♀️ Fato aleatório: O circo é minha paixão, sou acrobata aérea e atriz!<br>
 
 ##
