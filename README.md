@@ -3,7 +3,7 @@
 🎈 Atualmente trabalho como assistente de TI usando tecnologias de Front-end e Excel <br>
 💫 Estou sempre em busca de me aprofundar no universo da programação, no momento estou estudando na PUCPR no curso de ADS <br>
 📩 Adoro receber feedbacks, eles me ajudam muito a evoluir, então sinta-se à vontade em me escrever <br>
-🤯 Pratico meus conhecimentos através do Codewars, Beecrowd e projetinhos individuais além de cursos online e bootcamps, fique à vontade em me ajudar a praticar <br/>
+🤯 Pratico meus conhecimentos através do Codewars, Beecrowd e projetinhos individuais além de cursos online e bootcamps, fique à vontade em me indicar cursos e práticas <br/>
 🎪🤸🏽‍♀️ Fato aleatório: O circo é minha paixão, sou acrobata aérea e atriz!<br>
 
 ##
@@ -20,6 +20,8 @@
   <img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Ruby" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg">
+  <img align="center" alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-plain-wordmark.svg">
+  <img align="center" alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
   
  
 </div>
