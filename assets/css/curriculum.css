@@ -1,0 +1,236 @@
+#curriculo {
+    width: 65vw;
+    background-color: var(--bluey-grey-lev1);
+    margin: auto;
+    box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 73vh;
+    flex-direction: row;
+    font-family:var(--normal-text)
+}
+.leftside {
+    width: 30%;
+    padding: 2rem;
+    background-color: var(--bluey-grey-heavy);
+    border-right: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.logo-curriculo{
+    text-align:center;
+}
+.logo-curriculo img {
+    max-height: 12rem;
+    width: auto;
+    margin: 0 auto;
+}
+.titulo-curriculo, .section-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--font-color-curriculum);
+    border-bottom: 2px solid var(--font-color-curriculum);
+    padding-bottom: 2px;
+    margin-bottom: 1rem;
+}
+.desc {
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+}
+.desc i {
+    font-size: 1.3rem;
+    color: var(--font-color-curriculum);
+    margin-right: 5px;
+}
+.txt-curriculo{
+    color: var(--font-color-curriculum);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.lista-curriculo {
+    list-style: disc;
+    column-count: 2; 
+    column-gap: 4rem; 
+}
+.lista-curriculo li {
+    color: var(--font-color-curriculum);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.desc a:hover {
+    text-decoration: underline;
+}
+.lista-curriculo {
+    list-style: disc;
+    padding-left: 1.2rem;
+}
+.txt-curriculo-m{
+    color: var(--font-color-curriculum);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    align-text:justify;
+    line-height:1.9rem;
+}
+.rightside {
+    width: 70%;
+    padding: 2rem;
+    background-color: var(--rightside-color);
+    height: 100%;
+    overflow-y: auto;
+}
+.section {
+    margin-bottom: 2.5rem;
+}
+.experience-item h3, .course-item h3{
+    color: var(--font-color-curriculum);
+    font-size: 1.3rem;
+    padding-top:1rem;
+}
+.course-item h3{
+    margin-bottom:1rem;
+}
+.experience-item ul li, .education-item ul li, .course-item ul li, .activity-item ul li{
+    list-style: disc;
+    color: var(--font-color-curriculum);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    
+}
+.experience-item ul, .education-item ul, .course-item ul, .activity-item ul{
+    padding-left:1.5rem;
+}
+.course-item ul li a:hover{
+    text-decoration:underline;
+}
+.date{
+    color: var(--font-color-curriculum);
+    padding-bottom:3px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style:italic;
+}
+.experience-item span{
+    font-weight:500;
+}
+.experience-item{
+    margin-bottom:2rem;
+}
+.project-item{
+    padding-top:2rem
+}
+.project-item h3 {
+    margin-bottom:-0.7rem;
+}
+.project-title{
+    color: var(--font-color-curriculum);
+    font-weight:bold;
+    margin-bottom:-5px;
+    font-size:1.2rem;
+}
+.project-title:hover{
+    text-decoration:underline;
+}
+.course-item h3{
+    color: var(--font-color-curriculum);
+    font-weight:bold;
+    margin-top:2rem; 
+}
+.txt-curriculo-m b{
+    color: var(--font-color-curriculum);
+    font-weight:bold;
+}
+.button-container{
+    padding:2.5rem;
+}
+.button-container .area-button .button{
+    background-color: rgba(139,162,176,0.7);
+    color:var(--font-color-curriculum);
+    font-weight:800;
+    border:2px var(--font-color-curriculum) solid;
+}
+.button-container .area-button .button:hover{
+    background-color: var(--bluey-grey-transparent);
+    border:2px #fff solid;
+    color: #fff;
+    transition:0.3s;
+}
+.area-button{
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.button{
+    text-align:center;
+    padding:1.5rem;
+    background-color: rgba(139,162,176,0.4);
+    border-radius:5rem;
+    border:none;
+    font-family: var(--normal-text);
+    font-size:1.6rem;
+    width: 50%;
+    display: block;
+}
+
+/* Tablet retrato */
+@media (min-width: 1024px) and (max-width: 1280px) { 
+    #curriculo {
+        width: 75vw;
+    }
+    .leftside {
+        width: 40%;
+    }
+
+}
+
+/* Tablet paisagem */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    #curriculo {
+        width: 75vw;
+    }
+    .leftside {
+        width: 40%;
+    }
+
+}
+
+/* Mobile grandes */
+@media (min-width: 481px) and (max-width: 767px) { 
+    #curriculo {
+        width: 70vw;
+        flex-direction: column;
+    }
+    .leftside {
+        width: 100%;
+    }
+    .rightside {
+        width: 100%;
+        padding: 2rem;
+        background-color: var(--rightside-color);
+        height: 100%;
+    }
+}
+
+/* Mobile pequenos */
+@media (min-width: 360px) and (max-width: 480px) { 
+    #curriculo {
+        width: 70vw;
+        flex-direction: column;
+    }
+    .leftside {
+        width: 100%;
+    }
+    .rightside {
+        width: 100%;
+        padding: 2rem;
+        background-color: var(--rightside-color);
+        height: 100%;
+    }
+}

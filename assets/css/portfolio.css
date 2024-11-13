@@ -1,0 +1,73 @@
+.portfolio-header h2{
+    font-family: var(--dancing-script);
+    font-size: 6.5rem;
+    font-weight: 400;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+}
+.portfolio-header p{
+    font-family: var(--normal-text);
+    font-size:2.5rem;
+    text-align:center;
+}
+
+.project-category {
+    margin-bottom: 3rem;
+}
+
+.project-category h3 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #fff;
+    padding-top: 2.5rem;
+    padding-bottom:0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    width: calc(33.33% - 20px);
+    text-decoration: none;
+    background: var(--rightside-color);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.project-info h4 {
+    color: var(--font-color-curriculum);
+    font-family:var(--normal-text);
+    margin-bottom: 0.5rem;
+    font-size:1.5rem;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: var(--font-color-curriculum);
+    font-family:var(--normal-text);
+    font-size:1.2rem;
+}
+

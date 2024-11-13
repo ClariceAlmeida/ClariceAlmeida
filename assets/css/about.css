@@ -1,0 +1,367 @@
+#about{
+    background-image: var(--background-dark);
+    height:auto;
+    padding:2rem;
+    width:100vw !important;
+}
+#about-container{
+    display: flex; 
+    width:90vw;
+    margin:auto;
+    justify-content:space-evenly;
+    height:100%;
+}
+.area-about-title{  
+    width:100%;
+    padding:1rem;
+}
+.about-text{
+    padding:2rem;
+}
+.title{
+    font-family: var(--dancing-script);
+    font-size: 5rem;
+    font-weight: 400;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+}
+.title i {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+.area-about-desc{
+    text-align: justify;
+}
+.area-about-desc div{
+    padding:2rem;
+}
+span{
+    font-family: var(--normal-text);
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+}
+.area-about-desc span::before {
+    content: "✨";
+    font-size: 1.8rem;
+}
+.about-text {
+    padding-left: 2rem;
+}
+.foto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto img {
+    max-width: 100%;
+    height: auto;
+}
+.foto img {
+    width: 85%;
+    transition: transform 0.3s ease;
+    opacity: 0; 
+    animation: slide-in 0.7s ease forwards;
+    animation-delay:0.6s;
+}
+.foto img:hover {
+    width:95%;
+    transition: 0.4s;
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(20rem); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+.button{
+    text-align:center;
+    padding:1.5rem;
+    background-color: rgba(139,162,176,0.4);
+    border-radius:5rem;
+    border:none;
+    font-family: var(--normal-text);
+    font-size:1.6rem;
+    width: 50%;
+    display: block;
+}
+
+.button:hover{
+    background-color: rgba(139,162,176,0);
+    border:1px #00B4B3 solid;
+    color: #00B4B3;
+    transition:0.3s;
+}
+.area-button{
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+/* services */
+#help{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width:90vw;
+    margin:auto;
+}
+.help-container {
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 80%;
+}
+.services {
+    border-radius: 5rem;
+    background-color: var(--bluey-grey-lev1);
+    padding: 1.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    width:30%;
+}
+.icone-services{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.icone-services i {
+    font-size:4.5rem;
+    padding:1rem;
+    
+}
+.icone-services h4{
+    font-size:2rem;
+    font-family: var(--normal-text);
+}
+.services-desc{
+    font-family: var(--normal-text);
+    font-size:1.5rem;
+    text-align:center;
+    font-weight: 500;
+}
+.skills-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.skills {
+    background-image: var(--background-dark);
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 4rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills i{
+    font-size: 4rem;
+}
+.skills:hover{
+    border: #00B4B3 1px solid;
+    transition: 1s;
+}
+.skills:hover i {
+    color: #00B4B3;
+    transition: 1s;
+}
+.services:hover .icone-services i{
+    color: #00B4B3;
+    transition: 0.5s;
+}
+
+
+
+/* Tablet retrato */
+@media (min-width: 1024px) and (max-width: 1280px) { 
+    
+    #about-container{
+        display: flex; 
+        width:90vw;
+        margin:auto;
+        flex-direction:column;
+        justify-content:space-evenly;
+    }
+    .foto {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    /* services */
+    #help{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width:90vw;
+        margin:auto;
+    }
+    .services{
+        text-align:center;
+        width:45%;
+        margin:2rem;
+    }
+}
+
+/* Tablet paisagem */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    #about-container{
+        display: flex; 
+        width:90vw;
+        margin:auto;
+        flex-direction:column;
+        justify-content:space-evenly;
+    }
+    .foto {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+
+    .area-about-title{  
+        padding:1rem;
+    }
+    .about-text{
+        padding:1rem;
+    }
+    .services{
+        text-align:center;
+    }
+
+}
+
+
+ /* Mobile grandes */
+@media (min-width: 481px) and (max-width: 767px) { 
+    #about-container{
+        display: flex; 
+        width:90vw;
+        margin:auto;
+        flex-direction:column;
+        justify-content:space-evenly;
+    }
+    .foto {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+
+    .area-about-title{  
+        padding:1rem;
+    }
+    .about-text{
+        padding:1rem;
+    }
+    #help{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width:90vw;
+        margin:auto;
+    }
+    .services{
+        text-align:center;
+        width:60%;
+        padding:2rem;
+        margin:2rem;
+    }
+    .services i {
+        font-size:2.5rem;
+    }
+    .services h4{
+        padding:1rem;
+    }
+    .skills-area{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Mobile pequenos */
+@media (min-width: 360px) and (max-width: 480px) { 
+    .title{
+        text-align:center;
+    }
+    #about-container{
+        display: flex; 
+        width:90vw;
+        margin:auto;
+        flex-direction:column;
+        justify-content:space-evenly;
+    }
+    .foto {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+
+    .area-about-title{  
+        padding:1rem;
+    }
+    .about-text{
+        padding:1rem;
+    }
+    #help{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width:90vw;
+        margin:auto;
+    }
+    .services{
+        text-align:center;
+        width:60%;
+        padding:2rem;
+        margin:2rem;
+    }
+    .services i {
+        font-size:2.5rem;
+    }
+    .services h4{
+        padding:1rem;
+    }
+    .skills-area{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

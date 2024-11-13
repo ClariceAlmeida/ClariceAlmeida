@@ -1,0 +1,80 @@
+form {
+    width: 55vw;
+    margin: auto;
+    padding: 2.5rem;
+    font-family:var(--normal-text);
+}
+form div {
+    margin-bottom: 2.5rem;
+}
+label {
+    font-weight: bold;
+    display: block;
+    font-size:1.5rem;
+}
+input, textarea, select, button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: var(--bluey-grey-lev1);
+}
+.botao{
+    text-align:center;
+    font-family:var(--normal-text);
+}
+.botao button{
+    width:50%;
+    font-family:var(--normal-text);
+}
+button:hover{
+    background-color: var(--bluey-grey-transparent);
+    border:2px solid #FFF;
+    color:#FFF;
+}
+.erroCont {
+    padding: 3px;
+    text-align: left;
+    font-size: 1.5rem;
+    display: none;
+    font-weight:bold;
+    border-radius:5px;
+}
+.erroCont i {
+    font-size: 1.5rem;
+    color: red;
+}
+.erroCont span {
+    margin-left: 3px;
+    color: red;
+}
+
+/* Tablet retrato */
+@media (min-width: 1024px) and (max-width: 1280px) { 
+    form {
+        width: 60vw;
+    }
+}
+
+/* Tablet paisagem */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    form {
+        width: 65vw;
+    }
+}
+
+/* Mobile grandes */
+@media (min-width: 481px) and (max-width: 767px) { 
+    form {
+        width: 80vw;
+    }
+}
+
+/* Mobile pequenos */
+@media (min-width: 360px) and (max-width: 480px) { 
+    form {
+        width: 85vw;
+    }
+}

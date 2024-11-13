@@ -1,0 +1,35 @@
+#formAction{
+    height:70vh;
+    background-color: var(--bluey-grey-lev1);
+    width:70vw;
+    border-radius:2rem;
+    margin:auto;
+    font-family:var(--normal-text)
+}
+.txt{
+    font-size:3.5rem;
+    font-weight:bold;
+}
+.txtFormAction{
+    font-size:2rem;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height: 35%;
+}
+.img{
+    height:50%;
+    padding:1.5rem;
+    display:flex;
+    justify-content:center;
+}
+.img img{
+    height:100%;
+}
+/* Mobile pequenos */
+@media (min-width: 360px) and (max-width: 480px) { 
+    .img img{
+        height:70%;
+    }
+}

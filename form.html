@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e0bb16f400.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="./assets/images/favicon-clarice.png">
+    
+        <link rel="stylesheet" type="text/css" href="./assets/css/template.css"/>
+        <link rel="stylesheet" href="/assets/css/form.css">
+    
+        <title>Clarice Almeida | Full Stack Developer</title>
+    </head>
+    <body>
+        <div id="header-container"></div>
+
+
+        <div class="container">
+            <form id="contactForm" action="formAction.html" method="GET" onsubmit="return validateForm()">
+                <div>
+                    <label for="fullName">Nome Completo:</label>
+                    <input type="text" id="fullName" name="fullName" >
+                    <div id="erroName" class="erroCont">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Adicione um nome válido</span> 
+                    </div>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" >
+                    <div id="erroEmail" class="erroCont">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Adicione um email válido</span> 
+                    </div>
+                </div>
+                <div>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="XX-XXXXX-XXXX">
+                    <div id="erroPhone" class="erroCont">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Adicione um número de telefone válido</span> 
+                    </div>
+                </div>
+                <div>
+                    <label for="subject">Assunto:</label>
+                    <input type="text" id="subject" name="subject" >
+                    <div id="erroSubject" class="erroCont">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Adicione um assunto válido</span> 
+                    </div>
+                </div>
+                <div>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" ></textarea>
+                    <div id="erroMessage" class="erroCont">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span>Adicione uma mensagem válida</span> 
+                    </div>
+                </div>
+                <div>
+                    <label for="contactPreference">Preferência de Contato:</label>
+                    <select id="contactPreference" name="contactPreference">
+                        <option value="email">E-mail</option>
+                        <option value="phone-call">Ligação</option>
+                        <option value="sms">SMS</option>
+                        <option value="whats">WhatsApp</option>
+                    </select>
+                </div>
+                <div class="botao">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            
+
+        </div>
+
+
+        <div id="footer-container"></div>
+
+        <script src="/assets/javascript/script.js">
+            catchForm();
+        </script>
+    </body>
+    </html>
