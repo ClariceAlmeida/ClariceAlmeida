@@ -13,7 +13,7 @@ async function includeFooter() {
     const footerContainer = document.getElementById('footer-container');
     const response = await fetch('footer.html');
     const html = await response.text();
-    footerContainer.innerHTML = html; // Corrigido para footerContainer
+    footerContainer.innerHTML = html; 
 }
 
 includeFooter();
