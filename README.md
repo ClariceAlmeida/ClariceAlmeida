@@ -2,7 +2,7 @@
 # Oie! Eu sou a **Clarice** – pode me chamar de **Clari**! 💖
 
 ### Sobre Mim
-- 🎈 **Atualmente**: Assistente de TI, focada em tecnologias Front-End, Ruby Java e Excel.
+- 🎈 **Atualmente**: Analista de TI, focada em tecnologias Front-End, Ruby, Java e Excel.
 - 💫 **Estudante**: Cursando Análise e Desenvolvimento de Sistemas na PUCPR, sempre buscando me aprofundar no universo da programação. 
 - 📩 **Feedbacks**: Adoro receber feedbacks, eles me ajudam a crescer, então sinta-se à vontade para me escrever, vou adorar indicações!
 - 🤯 **Prática Constante**: Gosto de desafiar minhas habilidades e estou sempre em busca de projetos pessoais, cursos online e conteúdos da comunidade.
